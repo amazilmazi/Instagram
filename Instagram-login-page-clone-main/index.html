@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Login</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Instagram Logo -->
+        <img class="inst" src="insta.png" alt="Instagram logo">
+        
+        <div class="content">
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <td><input id="emailInput" class="inputs" type="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="passwordInput" class="inputs" type="password" placeholder="Enter your password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="submitBtn" type="button" class="btn">Log in</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <!-- Popup for displaying saved user data -->
+        <div id="resultContainer" class="result-container">
+            <button id="popupCloseBtn" class="close-btn">X</button>
+            <ul>
+                <li id="email-li"></li>
+                <li id="password-li"></li>
+                <li id="time-li"></li>
+            </ul>
+        </div>
+
+        <div class="facebook">
+            <!-- Facebook login button with image -->
+            <a class="flogin" href="https://www.facebook.com">
+                <img class="face" src="facebook.png" alt="Facebook icon">Log in with Facebook
+            </a><br>
+        </div>
+
+        <div class="forgot">
+            <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+        </div>
+    </div>
+
+    <div class="signup">
+        <p>Don't have an account?</p>
+        <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+    </div>
+
+    <div class="getapp">
+        <p class="get">Get the app.</p>
+    </div>
+
+    <!-- Footer with download options -->
+    <div class="footer">
+        <!-- Google Play Image Link -->
+        <a class="gpay" href="https://play.google.com/store/apps/details?id=com.instagram.android">
+            <img src="google play.png" alt="Google Play">
+        </a>
+        
+        <!-- Microsoft Store Image Link -->
+        <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt">
+            <img src="microsoft.png" alt="Microsoft Store">
+        </a>
+    </div>
+
+    <footer>
+        <div class="linkes">
+            <a class="lineset" href="https://about.meta.com/">Meta</a>
+            <a class="lineset" href="https://about.instagram.com/">About</a>
+            <a class="lineset" href="https://about.instagram.com/blog/">Blog</a>
+            <a class="lineset" href="https://about.instagram.com/about-us/careers">Jobs</a>
+            <a class="lineset" href="https://help.instagram.com/">Help</a>
+            <a class="lineset" href="https://developers.facebook.com/docs/instagram">API</a>
+            <a class="lineset" href="https://www.instagram.com/legal/privacy/">Privacy</a>
+            <a class="lineset" href="https://www.instagram.com/legal/terms/">Terms</a>
+            <a class="lineset" href="https://www.instagram.com/explore/locations/">Locations</a>
+        </div>
+        <div class="end">
+            <select>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Chinese</option>
+                <option>Japanese</option>
+                <option>French</option>
+            </select>
+            <p>© 2024 Instagram from Meta</p>
+        </div>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
